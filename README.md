@@ -1,16 +1,108 @@
-# React + Vite
+# Joineazy – Assignment & Review Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive web-based Assignment & Review Dashboard built using React.js and Tailwind CSS. The application provides separate dashboards for Students and Admins (Professors) to manage assignments and track submission progress.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Student Dashboard
+- View assigned assignments.
+- Check assignment descriptions and due dates.
+- Access external Google Drive submission links.
+- Confirm assignment submissions with a two-step confirmation.
+- Track overall submission progress.
+- View assignment submission status.
 
-## React Compiler
+### Admin Dashboard
+- Create, edit, and delete assignments.
+- Assign tasks to all students or selected students.
+- Monitor individual student submission statuses.
+- Track class completion rates with progress bars.
+- View only assignments created by the logged-in admin.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### General Features
+- Role-based mock login.
+- Responsive design for desktop and mobile.
+- Data persistence using localStorage.
+- Search and filter assignments.
+- Clean and user-friendly interface.
 
-## Expanding the Oxlint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React.js
+- Tailwind CSS
+- JavaScript
+- React Hooks (useState, useEffect)
+- localStorage
+- Lucide React Icons
+- Vite
+
+## Installation & Setup
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Vikram-sardiwal/Joineazy-Assignment-Dashboard.git
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd Joineazy-Assignment-Dashboard
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL provided by Vite in your browser.
+
+## Project Structure
+
+```text
+Joineazy-Assignment-Dashboard/
+├── public/
+├── src/
+│   ├── components/
+│   ├── data/
+│   ├── pages/
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── package.json
+├── tailwind.config.js
+├── vite.config.js
+└── README.md
+```
+
+## Architecture & Design Decisions
+
+- Used reusable React components for maintainability.
+- Separated Student and Admin dashboards.
+- Used React Hooks for managing application state.
+- Used localStorage to persist assignments and submission data.
+- Implemented mock users to demonstrate role-based access.
+- Designed a responsive interface for different screen sizes.
+
+## Demo
+
+Live Demo: Add your deployed Vercel or Netlify URL here.
+
+Demo Video: Add your Google Drive or Loom video URL here.
+
+## Author
+
+**Vikram Sardiwal**
+
+GitHub: https://github.com/Vikram-sardiwal
+
+---
+
+Built as part of the Joineazy Frontend Intern Assignment – Task 1.
