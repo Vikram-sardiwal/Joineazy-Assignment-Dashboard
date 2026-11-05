@@ -93,7 +93,7 @@ Joineazy-Assignment-Dashboard/
 
 ## Demo
 
-Live Demo: Add your deployed Vercel or Netlify URL here.
+Live Demo: https://joineazy-dashboard-wine.vercel.app/
 
 Demo Video: Add your Google Drive or Loom video URL here.
 
