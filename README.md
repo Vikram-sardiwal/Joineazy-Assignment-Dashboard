@@ -95,7 +95,7 @@ Joineazy-Assignment-Dashboard/
 
 Live Demo: https://joineazy-dashboard-wine.vercel.app/
 
-Demo Video: Add your Google Drive or Loom video URL here.
+Demo Video: https://drive.google.com/file/d/1PptQUa_JAfHSRMAs4Kho_I5PlR7y9WmA/view?usp=sharing
 
 ## Author
 
